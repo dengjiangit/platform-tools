@@ -1,0 +1,25 @@
+# Android SDK platform-tools 二进制（约 35 MB）
+# 重新分发受 Google 许可限制，且会让仓库臃肿。
+# 想连二进制一起分发，就删掉下面这些行。
+adb
+fastboot
+sqlite3
+etc1tool
+hprof-conv
+make_f2fs
+make_f2fs_casefold
+mke2fs
+mke2fs.conf
+lib64/
+NOTICE.txt
+source.properties
+.workbuddy/*
+
+# 下载下来的 APK
+apks/
+
+# 本地工作区数据
+.workbuddy/
+
+# macOS
+.DS_Store
